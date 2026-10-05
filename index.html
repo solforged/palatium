@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palatium</title>
+  </head>
+  <body>
+    <div id="menu" class="overlay" hidden>
+      <div class="card">
+        <p class="eyebrow">Palatium</p>
+        <h1 id="menu-title"></h1>
+        <p id="menu-subject" class="lede"></p>
+        <blockquote id="menu-prompt"></blockquote>
+        <ol id="menu-wings" class="wings"></ol>
+        <p id="menu-review" class="review"></p>
+        <div class="actions">
+          <button data-act="learn">Learning walk</button>
+          <button data-act="recall">Recall walk</button>
+          <button data-act="roam" class="quiet">Wander freely</button>
+        </div>
+      </div>
+    </div>
+    <div id="summary" class="overlay" hidden>
+      <div id="summary-card" class="card"></div>
+    </div>
+    <aside id="panel" hidden></aside>
+    <div id="hint" hidden></div>
+    <div id="error" hidden></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

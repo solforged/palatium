@@ -1,0 +1,248 @@
+{
+  "id": "geologic-time",
+  "title": "The Palace of Deep Time",
+  "subject": "The twelve periods of the Phanerozoic, oldest first",
+  "prompt": "I can't remember the geological eras, can you generate a wacky thing that will stick in my head that I can use to walk through the set",
+  "style": "bold gouache storybook illustration, thick ink outlines, saturated flat colors, absurd comedic energy, slightly surreal, consistent painterly texture",
+  "wings": [
+    {
+      "name": "Paleozoic",
+      "gloss": "old life",
+      "dates": "538.8–251.9 Ma",
+      "hook": "Paleo means old: the oldest wing, flooded with sea light.",
+      "color": "#2f7f86"
+    },
+    {
+      "name": "Mesozoic",
+      "gloss": "middle life",
+      "dates": "251.9–66 Ma",
+      "hook": "Meso means middle: the middle wing, where the dinosaurs live.",
+      "color": "#b5562f"
+    },
+    {
+      "name": "Cenozoic",
+      "gloss": "new life",
+      "dates": "66 Ma–now",
+      "hook": "Ceno sounds like 'scene, now': the newest wing, ending in the present.",
+      "color": "#5b6fb8"
+    }
+  ],
+  "loci": [
+    {
+      "id": "cambrian",
+      "wing": 0,
+      "answer": "Cambrian",
+      "dates": "538.8–485.4 Ma",
+      "hook": "camera",
+      "scene": "A sunburned tourist fires an enormous flash camera while trilobites and Anomalocaris burst out of the sea like popcorn.",
+      "facts": [
+        "The Cambrian explosion: most major animal groups appear in the fossil record.",
+        "Trilobites everywhere; Anomalocaris is the top predator."
+      ],
+      "image": "01-cambrian.jpg",
+      "imagePrompt": {
+        "subject": "A sunburned tourist in a Hawaiian shirt holding an enormous old-fashioned bellows camera, flash exploding",
+        "action": "photographing hundreds of trilobites and strange early sea creatures (Anomalocaris, Opabinia) bursting out of a turquoise sea like popcorn",
+        "scene": "a rocky primordial shoreline with bare land, no plants"
+      }
+    },
+    {
+      "id": "ordovician",
+      "wing": 0,
+      "answer": "Ordovician",
+      "dates": "485.4–443.8 Ma",
+      "hook": "order a fish",
+      "scene": "A snooty diner orders fish; the waiter serves a jawless armored fish on a block of ice while the restaurant freezes solid.",
+      "facts": [
+        "Sea life diversifies fast; early jawless fish appear.",
+        "Ends in an ice age and the second-largest mass extinction."
+      ],
+      "image": "02-ordovician.jpg",
+      "imagePrompt": {
+        "subject": "A snooty diner in a tuxedo with a monocle and a waiter in a white jacket",
+        "action": "the waiter proudly presents a silver platter holding a goofy armored jawless fish with no jaw (Arandaspis) sitting on a block of ice, while the diner gasps",
+        "scene": "a fancy restaurant that is freezing solid: icicles hanging from the chandelier, frost creeping over tables, other diners frozen in blocks of ice, nautiloid shells as table decorations"
+      }
+    },
+    {
+      "id": "silurian",
+      "wing": 0,
+      "answer": "Silurian",
+      "dates": "443.8–419.2 Ma",
+      "hook": "silly",
+      "scene": "A silly clown plants the first tiny land plants on bare rock while a jawed fish bites his giant shoe.",
+      "facts": [
+        "First vascular plants on land, such as tiny Cooksonia.",
+        "Jawed fish spread; big coral reefs grow."
+      ],
+      "image": "03-silurian.jpg",
+      "imagePrompt": {
+        "subject": "A silly circus clown with a red nose, rainbow wig and enormous floppy shoes",
+        "action": "kneeling and planting tiny forked green twig plants (Cooksonia) one by one on completely bare grey rock with a toy watering can, while a toothy jawed fish leaps out of a tide pool and chomps on his giant shoe",
+        "scene": "a barren rocky coast with colorful coral reefs visible under clear shallow water"
+      }
+    },
+    {
+      "id": "devonian",
+      "wing": 0,
+      "answer": "Devonian",
+      "dates": "419.2–358.9 Ma",
+      "hook": "Devon cream tea",
+      "scene": "At an English cream tea, a fish with stubby legs crawls out of the teapot onto the scones while an armored Dunkleosteus pours.",
+      "facts": [
+        "The Age of Fishes.",
+        "Fish with limb-like fins edge onto land; the first forests grow."
+      ],
+      "image": "04-devonian.jpg",
+      "imagePrompt": {
+        "subject": "A proper English cream tea with scones, clotted cream and jam on a lace tablecloth",
+        "action": "a fish with stubby little legs (Tiktaalik) crawls out of the spout of a porcelain teapot onto the scones, while a huge armored fish (Dunkleosteus) wearing a lace bonnet pours tea from a second teapot",
+        "scene": "a garden of early tree-like plants (Archaeopteris), the first forest, around the tea table"
+      }
+    },
+    {
+      "id": "carboniferous",
+      "wing": 0,
+      "answer": "Carboniferous",
+      "dates": "358.9–298.9 Ma",
+      "hook": "carbon / coal",
+      "scene": "An eagle-sized dragonfly in a miner's helmet hauls sacks of coal out of a towering fern swamp.",
+      "facts": [
+        "Vast swamp forests later become coal.",
+        "High oxygen means giant insects like Meganeura; the first reptiles appear."
+      ],
+      "image": "05-carboniferous.jpg",
+      "imagePrompt": {
+        "subject": "A gigantic dragonfly (Meganeura) as big as an eagle wearing a coal miner's helmet with a glowing headlamp",
+        "action": "flying out of a mine cart track carrying two heavy sacks of black coal, while a giant millipede (Arthropleura) pushes a mine cart full of coal",
+        "scene": "a towering steamy swamp forest of giant tree ferns and scale trees (Lepidodendron)"
+      }
+    },
+    {
+      "id": "permian",
+      "wing": 0,
+      "answer": "Permian",
+      "dates": "298.9–251.9 Ma",
+      "hook": "perm",
+      "scene": "A Dimetrodon in curlers gets a perm while the salon hair dryers erupt like volcanoes and the place burns down.",
+      "facts": [
+        "Pangaea is assembled; sail-backed synapsids like Dimetrodon.",
+        "Ends with the Great Dying: about 90% of marine species, linked to Siberian volcanism."
+      ],
+      "image": "06-permian.jpg",
+      "imagePrompt": {
+        "subject": "A sail-backed Dimetrodon wearing pink hair curlers sitting in a 1980s hair salon chair getting a perm",
+        "action": "the row of dome hood hair dryers erupts like volcanoes spewing lava and black smoke, the hairdresser screams, the salon is on fire",
+        "scene": "a garish 1980s hair salon with checkered floor, a world map on the wall showing one single supercontinent"
+      }
+    },
+    {
+      "id": "triassic",
+      "wing": 1,
+      "answer": "Triassic",
+      "dates": "251.9–201.4 Ma",
+      "hook": "tricycle",
+      "scene": "A small early dinosaur pedals a tricycle across a single desert supercontinent with a tiny mammal in the basket.",
+      "facts": [
+        "Life recovers from the Great Dying.",
+        "The first dinosaurs and the first mammals appear."
+      ],
+      "image": "07-triassic.jpg",
+      "imagePrompt": {
+        "subject": "A small skinny early dinosaur (Coelophysis) wearing a bike helmet",
+        "action": "pedaling a child's red tricycle with great determination, a tiny shrew-like early mammal riding in the front basket with goggles",
+        "scene": "a vast hot red desert supercontinent with cycads and conifers, a cracked dry landscape stretching to the horizon"
+      }
+    },
+    {
+      "id": "jurassic",
+      "wing": 1,
+      "answer": "Jurassic",
+      "dates": "201.4–145 Ma",
+      "hook": "jury",
+      "scene": "A jury of sauropods, necks through the ceiling, faces an Archaeopteryx judge as the courtroom floor splits in two.",
+      "facts": [
+        "Giant sauropods, Stegosaurus and Allosaurus.",
+        "First birds (Archaeopteryx); Pangaea starts breaking apart."
+      ],
+      "image": "08-jurassic.jpg",
+      "imagePrompt": {
+        "subject": "A jury box filled with giant long-necked sauropod dinosaurs (Brachiosaurus, Diplodocus) whose necks smash up through the ceiling",
+        "action": "an Archaeopteryx in a white powdered judge's wig bangs a gavel, a Stegosaurus sits at the defendant's table, while the courtroom floor cracks and splits apart into two halves",
+        "scene": "a wood-paneled courtroom overgrown with ferns"
+      }
+    },
+    {
+      "id": "cretaceous",
+      "wing": 1,
+      "answer": "Cretaceous",
+      "dates": "145–66 Ma",
+      "hook": "crate",
+      "scene": "A wooden crate bursts with the first flowers and a T. rex, just as an asteroid streaks in to smash it.",
+      "facts": [
+        "Flowering plants appear and spread; T. rex and Triceratops.",
+        "Ends 66 Ma with the Chicxulub asteroid impact."
+      ],
+      "image": "09-cretaceous.jpg",
+      "imagePrompt": {
+        "subject": "A giant wooden shipping crate bursting open with colorful flowers spilling out, a Tyrannosaurus rex and a Triceratops peeking out of it",
+        "action": "a flaming asteroid streaks down from the sky about to smash the crate, the dinosaurs look up in horror",
+        "scene": "a lush landscape with magnolia flowers, a volcanic horizon"
+      }
+    },
+    {
+      "id": "paleogene",
+      "wing": 2,
+      "answer": "Paleogene",
+      "dates": "66–23.0 Ma",
+      "hook": "pale Gene",
+      "scene": "Gene, the palest man alive, sunbathes as a whale on legs walks into the sea and dog-sized horses trot past.",
+      "facts": [
+        "With the dinosaurs gone, mammals diversify.",
+        "Whales evolve from land mammals; early horses and primates."
+      ],
+      "image": "10-paleogene.jpg",
+      "imagePrompt": {
+        "subject": "An extremely pale, almost glowing white man with a mustache in an old-fashioned striped swimsuit, slathered in sunscreen, reclining in a deckchair",
+        "action": "beside him an early whale with four legs (Ambulocetus) waddles into the sea, and tiny dog-sized early horses (Eohippus) trot past his deckchair",
+        "scene": "a tropical beach with palm trees and a small primate watching from a tree"
+      }
+    },
+    {
+      "id": "neogene",
+      "wing": 2,
+      "answer": "Neogene",
+      "dates": "23.0–2.58 Ma",
+      "hook": "neon",
+      "scene": "A blazing neon sign lights up the savanna at night as an upright-walking Australopithecus strolls past grazing horses.",
+      "facts": [
+        "Grasslands spread and grazing mammals boom.",
+        "Early hominins such as Australopithecus walk upright."
+      ],
+      "image": "11-neogene.jpg",
+      "imagePrompt": {
+        "subject": "A giant glowing Las Vegas style neon sign shaped like an arrow and stars, standing in an African grassland savanna at night",
+        "action": "an upright-walking early hominin (Australopithecus) strolls under the neon glow, while horses, antelopes and a giraffe graze on grass glowing in pink and cyan neon light",
+        "scene": "open savanna grassland at night"
+      }
+    },
+    {
+      "id": "quaternary",
+      "wing": 2,
+      "answer": "Quaternary",
+      "dates": "2.58 Ma–now",
+      "hook": "quarter",
+      "scene": "A giant silver quarter rolls down a glacier with a woolly mammoth and a cave person riding it. That's us: we live here.",
+      "facts": [
+        "Repeated ice ages; woolly mammoths and sabre-toothed cats.",
+        "Homo sapiens appears. We are still in the Quaternary."
+      ],
+      "image": "12-quaternary.jpg",
+      "imagePrompt": {
+        "subject": "A giant shiny silver quarter coin rolling on its edge down a glacier like a wheel",
+        "action": "a woolly mammoth and a cheering cave person ride on top of the rolling coin, a sabre-toothed cat chases them",
+        "scene": "an ice age glacier with snowy mountains"
+      }
+    }
+  ]
+}
